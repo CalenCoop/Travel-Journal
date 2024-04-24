@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+*{
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar{
+    background-color: rgb(245,90,90);
+    padding: 10px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: -10px;
+    margin-bottom:2em;
+    
+}
+.nav-title{
+    font-weight: 500;
+    letter-spacing: -0.075em;
+}
+.nav-logo{
+    margin-right:0.7em;
+    height:2em;
+}
+.card{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid black;
+    margin: 1em;
+    padding: 2em;
+
+}
+.card:first-child{
+    border:none;
+}
+.card img{
+    width: 20em;
+    height: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 0.5em;
+    
+}
+.card-img{
+    margin-right: 1.5em;
+}
+.card-location{
+    display: flex;
+    align-items: center;
+    margin-bottom: -1.3em;
+}
+.card-location span{
+    margin-right: 0.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.card-location a{
+    color:gray;
+    font-weight: 100;
+    font-size: 0.8em;
+}
+.location-dot{
+    color:orangered;
+    margin-right: 0.3em;
+}
+.card-title{
+    font-size: 2em;
+}
+.card-dates{
+    margin-top: -1.2em;
+}
+.card-desc{
+    font-size: 0.9em;
+}
+.card-info{
+    width:100%;
+}
+.footer{
+    display: flex;
+    background-color: rgb(245,90,90);
+    padding:0.1em;
+    margin: -0.7em;
+    color:white;
+    justify-content: center;
+}
+.footer h3{
+    font-weight: 400;
+    font-size: 0.9em;
+}
